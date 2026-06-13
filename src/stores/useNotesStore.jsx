@@ -1,13 +1,13 @@
 import { create } from 'zustand'
 
 const useNotesStore = create((set) => ({
-    notes: [{ id: 1, title: "Bienvenido", body: "Haz click en cualquier titulo o descripcion para cambiarlo, o en + para una nota nueva.", completed: false, createdAt: Date.now() - 8000000 },],
+    notes: [{ id: 1, title: "Bienvenido", body: "Haz click en cualquier titulo o descripcion para cambiarlo, o en + para una nota nueva."},],
 
     addNote: () =>
         set((s) => {
             const id = Date.now();
             return {
-                notes: [{ id, title: "", body: "", completed: false, createdAt: Date.now() }, ...s.notes],
+                notes: [{ id, title: "", body: "", completed: false,}, ...s.notes],
             };
         }),
 
