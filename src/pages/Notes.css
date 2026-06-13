@@ -1,0 +1,47 @@
+.core {
+    padding-top: 60px;
+    min-height: 100vh;
+}
+body {
+    background-color: rgb(35, 35, 37);
+}
+
+.NoteCard {
+    padding: 12px;
+    margin: 5px;
+    border-radius: 8px;
+    border: 3px solid #ffc107;
+    background: #2b3035;
+}
+.CompleteNoteCard {
+    padding: 12px;
+    margin: 5px;
+    border-radius: 8px;
+    border: 3px solid #0fff07;
+    background: #2c352b;
+}
+.NoteButton {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.NoteTitle {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: white;
+    font-size: 1.3em;
+}
+.NoteBody {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    min-height: 1.5em;
+    color: white;
+    resize: none;
+}
+.NoteBreak {
+margin-top: 5px;
+margin-bottom: 5px;
+}
